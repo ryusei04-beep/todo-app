@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Read(//opt/homebrew/bin/**)",
+      "Read(//Users/ryusei/**)",
+      "Bash(/usr/libexec/path_helper)",
+      "Bash(mdfind 'kind:application name:node')",
+      "Bash(brew install:*)",
+      "Bash(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh -o /tmp/brew_install.sh)",
+      "Read(//tmp/**)",
+      "Bash(curl -fsSL https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh -o /tmp/nvm_install.sh)",
+      "Bash(bash /tmp/nvm_install.sh)",
+      "Bash(export NVM_DIR=\"$HOME/.nvm\")",
+      "Bash(. \"$NVM_DIR/nvm.sh\")",
+      "Bash(npm --version)",
+      "mcp__Claude_Preview__preview_start"
+    ]
+  }
+}
